@@ -1,8 +1,8 @@
-getglobal game
+game.Players.LocalPlayer:Kick("you got banned")
 
-local Victim = game.Players.VICTIM
 
-Victim:kick("you got banned reason: exploit, hack")
+
+
 
 
 
