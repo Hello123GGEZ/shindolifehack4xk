@@ -1,18 +1,8 @@
 getglobal game
 
-getfield -1 Players
+local Victim = game.Players.VICTIM
 
-getfield -1 LocalPlayer
-
-getfield -1 Kick
-
-pushvalue -2
-
-pushstring YOU GOT BANNED
-
-pcall 2 1 0
-
-emptystack
+Victim:kick("you got banned reason: exploit, hack")
 
 
 
@@ -39,3 +29,18 @@ emptystack
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+local Victim = game.Players.VICTIM
+
+Victim:kick("1234")
