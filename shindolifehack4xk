@@ -41,6 +41,6 @@ game.Players.LocalPlayer:Kick("you got banned")
 
 
 
-local Victim = game.Players.VICTIM
 
-Victim:kick("1234")
+
+
